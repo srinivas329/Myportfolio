@@ -1,0 +1,22 @@
+.about-bg {
+  background-color: #2d3040;
+  background-size: cover;
+  padding: 30px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.about-heading {
+  color: #dbf414;
+}
+.para {
+  color: #9ba1a6;
+  font-family: roboto;
+  font-size: 18px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 576px) {
+  .about-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,44 @@
+.skill-bg {
+  background-color: #1e262e;
+  background-size: cover;
+  padding: 30px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.ul-list {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-card {
+  list-style-type: none;
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+  height: 150px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+.skill-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.skill-name {
+  margin: 0px;
+  font-size: 30px;
+}
+@media screen and (max-width: 576px) {
+  .skill-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .skill-card {
+    width: 42%;
+  }
+}

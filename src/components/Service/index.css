@@ -1,0 +1,56 @@
+.service-bg {
+  background-color: #3b3b4e;
+  background-size: cover;
+  padding: 30px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.ul-list {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-card {
+  list-style-type: none;
+  background-color: #06060a;
+  border-radius: 15px;
+  margin: 20px;
+  margin-left: 0px;
+  width: 30%;
+  padding: 20px;
+}
+.service-heading {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px;
+}
+.service-heading1 {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px;
+}
+.service-logo {
+  height: 60px;
+  width: 60px;
+}
+.skill-name {
+  margin: 0px;
+  font-size: 30px;
+}
+.anchor {
+  color: #dbf414;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .service-bg {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .service-card {
+    width: 90%;
+  }
+}

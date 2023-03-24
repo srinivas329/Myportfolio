@@ -1,0 +1,83 @@
+.profile {
+  height: 340px;
+  width: 340px;
+  border-radius: 200px;
+}
+.profile-bg {
+  background-image: url('https://res.cloudinary.com/dxvsvzsai/image/upload/v1679634532/Free-Plain-HD-Backgrounds-Download_p9lry4.png');
+  height: 91.5vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+.name {
+  color: white;
+  font-size: 50px;
+  margin: 0px;
+  font-weight: 500;
+}
+.name-span {
+  color: #c8cf08;
+  font-size: 40px;
+  font-family: cursive;
+  margin-left: 130px;
+  padding: 0px;
+}
+.role {
+  color: #08cccf;
+  margin-left: 130px;
+  margin-top: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile1 {
+  display: none;
+  width: 250px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile1 {
+    border-radius: 50%;
+    display: inline;
+  }
+  .profile {
+    display: none;
+  }
+  .name {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+  .profile-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name-span {
+    color: #c8cf08;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .role {
+    color: #08cccf;
+    font-size: 15px;
+    margin-left: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
