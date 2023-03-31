@@ -17,7 +17,7 @@ const Footer = () => (
           />
           <div className="footer-list">
             <h2 className="footer-names">Srinivasulu Nagalapuram</h2>
-            <p className="call-details">Full Stack Developer</p>
+            <p className="call-details2">MERN Stack Developer</p>
           </div>
         </div>
 

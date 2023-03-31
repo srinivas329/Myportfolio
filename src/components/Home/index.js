@@ -26,7 +26,7 @@ class Home extends Component {
                 Hello, I am <br />
                 <span className="name-span"> Srinivasulu Nagalapuram</span>
               </h1>
-              <h2 className="role">Full Stack Developer</h2>
+              <h2 className="role">MERN Stack Developer</h2>
             </div>
             <img
               src="https://res.cloudinary.com/dxvsvzsai/image/upload/v1679634158/WhatsApp_Image_2023-03-24_at_10.31.52_sxflkx.jpg"
